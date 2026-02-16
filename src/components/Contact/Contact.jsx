@@ -11,10 +11,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_dow2d2s",
-        "template_i1afnth",
+        "service_cz1oq9m",
+        "template_kk3f963",
         form.current,
-        "1S7DZP4l7nU1ig9Sq"
+        "aJULKV3AEMNXQt7Ra" // ✅ updated public key
       )
       .then(
         () => {
@@ -56,7 +56,6 @@ const Contact = () => {
 
       {/* Contact Card */}
       <div className="w-full max-w-lg bg-[#0d081f]/90 backdrop-blur-md p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-700">
-        
         <h3 className="text-xl sm:text-2xl font-semibold text-white text-center">
           Connect With Me 🚀
         </h3>
@@ -112,7 +111,6 @@ const Contact = () => {
             className="w-full p-3 rounded-lg bg-[#131025] text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500 transition resize-none"
           />
 
-          {/* Button */}
           <button
             type="submit"
             className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-lg hover:scale-105 transition-transform duration-300 shadow-md shadow-purple-500/30"
